@@ -1,0 +1,12 @@
+@font-face {
+    font-family: font;
+    src: url('/fonts/RethinkSans-VariableFont_wght.ttf');
+}
+
+html {
+    font-family: font;
+}
+
+.max-w-prose { 
+  max-width: 100%;
+}

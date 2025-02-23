@@ -1,0 +1,22 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "/home/noe"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+
+[params.author]
+name = "Noé Tarbouriech"
+headline = "DevOps Engineer Apprentice"
+image = "profile.jpg"
+bio = "DevOps guy"
+links = [
+    { github = "https://github.com/noetarbouriech/" },
+    { linkedin = "https://www.linkedin.com/in/noe-tarbouriech/" },
+    { email = "mailto:contact@noe-t.dev" },
+]

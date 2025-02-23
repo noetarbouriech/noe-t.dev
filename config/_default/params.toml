@@ -1,149 +1,104 @@
-# Pages placed under these sections will be shown on homepage and archive page.
-mainSections = ["post"]
-# Output page's full content in RSS.
-rssFullContent = true
-favicon = "/favicon.png"
+colorScheme = "blowfish"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+enableSearch = true
+enableCodeCopy = true
+replyByEmail = false
+disableImageOptimization = false
+disableTextInHeader = false
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v8.next.forgejo.org"
+
+[header]
+layout = "basic"
 
 [footer]
-since = 2023
-customText = ""
+showMenu = true
+showCopyright = true
+showThemeAttribution = true
+showAppearanceSwitcher = true
+showScrollToTop = true
 
-[dateFormat]
-published = "Jan 02, 2006"
-lastUpdated = "Jan 02, 2006 15:04 GMT"
-
-[sidebar]
-emoji = "☁️"
-subtitle = "Tech and Cloud enthusiast"
-
-[sidebar.avatar]
-enabled = true
-local = false
-src = "https://github.com/noetarbouriech.png"
+[homepage]
+layout = "hero"
+homepageImage = "bg.png"
+showRecent = true
+showRecentItems = 5
+showMoreLink = true
+showMoreLinkDest = "/posts/"
+cardView = false
+cardViewScreenWidth = false
+layoutBackgroundBlur = true
 
 [article]
-math = false
-readingTime = true
+showDate = true
+showViews = false
+showLikes = false
+showDateOnlyInArticle = false
+showDateUpdated = false
+showAuthor = true
+showAuthorBottom = false
+showHero = true
+heroStyle = "background"
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = true
+showDraftLabel = true
+showEdit = false
+editAppendPath = true
+seriesOpened = false
+showHeadingAnchors = true
+showPagination = true
+invertPagination = false
+showReadingTime = true
+showTableOfContents = true
+showTaxonomies = true
+showAuthorsBadges = false
+showWordCount = false
+showZenMode = false
+robots = "all"
 
-[article.license]
-enabled = true
-default = "Licensed under CC BY-NC-SA 4.0"
+[list]
+showHero = false
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showSummary = true
+showViews = false
+showLikes = false
+showTableOfContents = false
+showCards = false
+orderByWeight = false
+groupByYear = true
+cardView = false
+cardViewScreenWidth = false
+constrainItemsWidth = false
 
-## Widgets
-[[widgets.homepage]]
-type = "search"
+[sitemap]
+excludedKinds = ["taxonomy", "term", "home", "section"]
 
-# [[widgets.homepage]]
-# type = "archives"
+[taxonomy]
+showTermCount = true
+showHero = false
+showBreadcrumbs = true
+showViews = false
+showLikes = false
+showTableOfContents = false
+cardView = false
 
-[widgets.homepage.params]
-limit = 5
+[term]
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = true
+groupByYear = false
+cardView = true
+cardViewScreenWidth = false
 
-[[widgets.homepage]]
-type = "categories"
+[umamiAnalytics]
+websiteId = "1e524370-35e7-4b0d-9dae-b4523aac1f83"
 
-[widgets.homepage.params]
-limit = 10
+[verification]
 
-[[widgets.homepage]]
-type = "tag-cloud"
-
-[widgets.homepage.params]
-limit = 10
-
-[[widgets.page]]
-type = "toc"
-
-[opengraph.twitter]
-site = ""
-card = "summary_large_image"
-
-[defaultImage.opengraph]
-enabled = false
-local = false
-src = ""
-
-[colorScheme]
-toggle = true
-default = "auto"
-
-[imageProcessing.cover]
-enabled = true
-
-[imageProcessing.content]
-enabled = true
-
-## Comments
-[comments]
-enabled = true
-provider = "disqus"
-
-[comments.disqusjs]
-shortname = ""
-apiUrl = ""
-apiKey = ""
-admin = ""
-adminLabel = ""
-
-[comments.utterances]
-repo = ""
-issueTerm = "pathname"
-label = ""
-
-[comments.remark42]
-host = ""
-site = ""
-locale = ""
-
-[comments.vssue]
-platform = ""
-owner = ""
-repo = ""
-clientId = ""
-clientSecret = ""
-autoCreateIssue = false
-
-[comments.waline]
-serverURL = ""
-lang = ""
-visitor = ""
-avatar = ""
-emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
-requiredMeta = ["name", "email", "url"]
-placeholder = ""
-
-[comments.waline.locale]
-admin = "Admin"
-
-[comments.twikoo]
-envId = ""
-region = ""
-path = ""
-lang = ""
-
-[comments.cactus]
-defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
-serverName = "cactus.chat"
-siteName = ""
-
-[comments.giscus]
-repo = ""
-repoID = ""
-category = ""
-categoryID = ""
-mapping = ""
-lightTheme = ""
-darkTheme = ""
-reactionsEnabled = 1
-emitMetadata = 0
-
-[comments.gitalk]
-owner = ""
-admin = ""
-repo = ""
-clientID = ""
-clientSecret = ""
-
-[comments.cusdis]
-host = ""
-id = ""
+[rssnext]
