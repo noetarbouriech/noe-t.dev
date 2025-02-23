@@ -33,6 +33,7 @@ layoutBackgroundBlur = true
 [article]
 showDate = true
 showViews = false
+showComments = true
 showLikes = false
 showDateOnlyInArticle = false
 showDateUpdated = false
