@@ -98,6 +98,8 @@ cardViewScreenWidth = false
 
 [umamiAnalytics]
 websiteId = "1e524370-35e7-4b0d-9dae-b4523aac1f83"
+domain = "noe-t.dev"
+scriptName = "scripts/umami-script.js"
 dataDomains = "noe-t.dev"
 enableTrackEvent = true
 
