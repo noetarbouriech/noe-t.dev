@@ -15,9 +15,9 @@ heroStyle: "big"
 
 Hello there :wave:
 
-I’m Noé Tarbouriech, a french DevOps engineer apprentice at [Polytech Montpellier](https://www.polytech.umontpellier.fr/) currently working for [Numalis](https://numalis.com/).
+I’m Noé Tarbouriech, a French DevOps engineer, graduated from [Polytech Montpellier](https://www.polytech.umontpellier.fr/). I previously worked at [Numalis](https://numalis.com/) as a DevOps apprentice and at [ESA](https://www.esa.int/) as an intern.
 
-I'm passionate about topics such as **Kubernetes**, **CI/CD**, **automation**, and **cloud computing** in general. I love to learn and try new things and I hope this blog will help me share my knowledge and experiences with you.
+I'm passionate about topics such as **Kubernetes** (I'm a CKA), **GitOps**, **Go**, and **cloud-native technologies** in general. I enjoy learning new tools, experimenting with workflows, and this blog is where I share my experiences and lessons learned.
 
 If you want to connect with me, you can find me on [LinkedIn](https://www.linkedin.com/in/noe-tarbouriech/) and [GitHub](https://github.com/noetarbouriech/).
 

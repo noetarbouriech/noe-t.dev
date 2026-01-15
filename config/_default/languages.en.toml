@@ -12,9 +12,9 @@ dateFormat = "2 January 2006"
 
 [params.author]
 name = "Noé Tarbouriech"
-headline = "DevOps Engineer Apprentice"
-image = "profile.jpg"
-bio = "DevOps guy"
+headline = "Diving into DevOps, SRE, and software engineering"
+image = "profile.png"
+bio = "DevOps engineer"
 links = [
     { github = "https://github.com/noetarbouriech/" },
     { linkedin = "https://www.linkedin.com/in/noe-tarbouriech/" },
