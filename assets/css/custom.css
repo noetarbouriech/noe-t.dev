@@ -1,12 +1,19 @@
 @font-face {
     font-family: font;
-    src: url('/fonts/RethinkSans-VariableFont_wght.ttf');
+    src: url("/fonts/RethinkSans-VariableFont_wght.ttf");
 }
 
 html {
     font-family: font;
 }
 
-.max-w-prose { 
-  max-width: 100%;
+.max-w-prose {
+    max-width: 100%;
+}
+
+.mermaid {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 100%;
 }
